@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right top, #10040b, #120b11, #141015, #161418, #18181b, #1a1a1d, #1b1d1f, #1d1f21, #1e2122, #1e2223, #1f2424, #212524);
+            color: #ffffff;
+        }
+
+        /* Other styles... */
+        .right-section {
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            height: 685px;
+            background-color: #0c0c0c; /* Initial background color */
+        }
+
+        .left-section {
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 685px;
+            background-color: #1c1b1b; /* Initial background color */
+            transition: background-color 0.5s ease; /* Smooth transition */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .left-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            animation: scaleImage 5s infinite alternate; /* Animation */
+        }
+
+        @keyframes scaleImage {
+            0% {
+                transform: scale(1); /* Initial size */
+            }
+            50% {
+                transform: scale(1.1); /* Scaled up */
+            }
+            100% {
+                transform: scale(1); /* Back to normal size */
+            }
+        }
+
+        @media (max-width: 768px) {
+            /* Hide image on smaller screens */
+            .left-section {
+                display: none;
+            }
+        }
+        .input-group {
+ position: relative;
+}
+
+.input {
+ border: solid 1.5px #9e9e9e;
+ border-radius: 1rem;
+ background: none;
+ padding: 1rem;
+ font-size: 1rem;
+ color: #f5f5f5;
+ transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.user-label {
+ position: absolute;
+ left: 15px;
+ color: #e8e8e8;
+ pointer-events: none;
+ transform: translateY(1rem);
+ transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.input:focus, input:valid {
+ outline: none;
+ border: 1.5px solid #1a73e8;
+}
+
+.input:focus ~ label, input:valid ~ label {
+ transform: translateY(-50%) scale(0.8);
+ background-color: #212121;
+ padding: 0 .2em;
+ color: #2196f3;
+}
+.btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-12:disabled {
+  cursor: default;
+}
+
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-12 [hidden] {
+  display: none;
+}
+
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 order-md-1 left-section">
+                <!-- Placeholder for image carousel -->
+                <!-- Replace with your actual image carousel code -->
+                <img src="image/register.png" class="img-fluid" alt="Image Carousel">
+            
+            </div>
+            <div class="col-md-6 order-md-1 right-section">
+                <!-- Your content for the right section -->
+                <!-- <h5 style="font-size: 32px; font-family: 'DM Serif Display', serif; letter-spacing: 3px;"><b>Sign in to </b> <span style="font-family: 'Hedvig Letters Serif', serif"><b>PySpace</b></span></h5><br>
+                <br><br> -->
+                <p style="color:white; font-size: 24px;text-align: center;margin-top: 20px ;;;">Hello new User!
+                <br><p style="color:gray;font-size: 14px;margin-top:-10px;text-align: center;">Welcome to PySpace</p>
+                </p>
+                <hr style="background-color : white;width: 60%;">
+<div class="col-md-8" style="margin: 0px auto;padding: 40px;">
+                <form>
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">First Name</label>
+                      </div>
+                      <br>
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Last Name</label>
+                      </div>
+                      <br>
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Username</label>
+                      </div>
+                      <br>
+                      <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Email</label>
+                      </div>
+                      <br>
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Password</label>
+                      </div>
+                      <br>
+                      <div class="col-md-5">
+                      <button class="btn-12"><span>Submit</span></button>
+                    </div>
+                      <!-- Form fields -->
+                </form>
+            </div>            </div>
+        </div>
+    </div>
+</body>
+</html>
